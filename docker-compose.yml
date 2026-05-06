@@ -2,7 +2,7 @@ services:
   app:
     container_name: app
     build:
-      context:
+      context: .
         dockerfile: Dockerfile
     image: app:1
     network_mode: bridge
